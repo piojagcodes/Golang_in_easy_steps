@@ -9,4 +9,8 @@ func main() {
 	fmt.Printf("Flag #4:%v\n", (flags & 8) > 0)
 
 	fmt.Printf("Flags value: %08b \t%v \n", flags, flags)
+
+	flags = flags >> 1
+	fmt.Printf("Flags value: %08b \t%v \n", flags, flags)
+	
 }
