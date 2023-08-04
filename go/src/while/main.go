@@ -13,6 +13,10 @@ func main() {
 	for {
 		fmt.Println("\t\t\tCountdown", i)
 		i--
+		if i < 1 {
+			fmt.Println("\t\t\t\t\tLift Off!")
+			break
+		}
 	}
 
 }
