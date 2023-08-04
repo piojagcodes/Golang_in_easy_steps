@@ -8,5 +8,11 @@ func main() {
 		fmt.Println("Loop Iteration", counter)
 		counter++
 	}
+	// Statements to be inserted here.
+	i := 10
+	for {
+		fmt.Println("\t\t\tCountdown", i)
+		i--
+	}
 
 }
